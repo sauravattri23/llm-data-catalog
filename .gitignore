@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+
+# Environment secrets - NEVER push this!
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code
+.vscode/
+
+# Airflow sensitive files
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log

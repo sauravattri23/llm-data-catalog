@@ -1,0 +1,46 @@
+version: "3.9"
+
+services:
+
+  # ─────────────────────────────────────────
+  #  PostgreSQL — Main Database
+  # ─────────────────────────────────────────
+  postgres:
+    image: postgres:15
+    container_name: catalog_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: catalog_user
+      POSTGRES_PASSWORD: catalog_pass
+      POSTGRES_DB: ecommerce_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U catalog_user -d ecommerce_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────────
+  #  pgAdmin — Visual DB Browser (Free UI)
+  # ─────────────────────────────────────────
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: catalog_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@catalog.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
+    ports:
+      - "5050:80"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+
+volumes:
+  postgres_data:
+  pgadmin_data:

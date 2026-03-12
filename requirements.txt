@@ -1,0 +1,9 @@
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Fake data generation
+faker==22.0.0
+
+# Utils
+python-dotenv==1.0.0
