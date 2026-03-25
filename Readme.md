@@ -62,8 +62,8 @@ This project **solves that problem automatically** using LLMs.
 |---|---|---|
 | **Phase 1** | Fake E-commerce Database (12 tables, 13K+ records) | ✅ Done |
 | **Phase 2** | Metadata Crawler (112 columns, all Grade A quality) | ✅ Done |
-| **Phase 3** | LLM Integration — GPT-4 auto-descriptions | 🔄 In Progress |
-| **Phase 4** | Data Lineage — Neo4j graph | ⏳ Coming Soon |
+| **Phase 3** | LLM Integration — GPT-4 auto-descriptions | ✅ Done |
+| **Phase 4** | Data Lineage — Neo4j graph | 🔄 In Progress |
 | **Phase 5** | Airflow Orchestration | ⏳ Coming Soon |
 | **Phase 6** | FastAPI REST endpoints | ⏳ Coming Soon |
 | **Phase 7** | React Search UI | ⏳ Coming Soon |
@@ -87,6 +87,7 @@ This project **solves that problem automatically** using LLMs.
 | **Frontend** | React |
 | **Monitoring** | Grafana, Prometheus |
 | **Infrastructure** | Docker, Docker Compose |
+| **LLM & AI** | HuggingFace flan-t5-large, LangChain, Transformers, PyTorch |
 
 ---
 
@@ -108,6 +109,29 @@ All 12 tables crawled with **zero errors**. All scored **Grade A**.
 | user_events | 5,000 | 10 | 96.54 | **A** |
 | shipments | 573 | 8 | 95.81 | **A** |
 | payments | 1,000 | 9 | 95.34 | **A** |
+
+---
+
+## 🤖 Phase 3 Results — AI Generated Descriptions
+
+All 12 tables and 112 columns described automatically
+using HuggingFace flan-t5-large model. Zero manual
+documentation written.
+
+| Table | AI Generated Description |
+|---|---|
+| `orders` | Stores all customer purchase transactions tracking the complete lifecycle from placement to delivery |
+| `users` | Contains registered customer accounts including contact details, location and membership status |
+| `products` | Stores product listings available for purchase including pricing, brand and inventory details |
+| `payments` | Records all payment gateway transactions including method, status and transaction identifiers |
+| `reviews` | Captures customer product reviews including ratings, review text and helpfulness votes |
+| `user_events` | Tracks all customer clickstream behaviour including page views, searches and purchase events |
+
+**Key Stats:**
+- 12 tables described automatically
+- 112 columns described automatically
+- 0 lines of manual documentation written
+- Local HuggingFace model — zero API cost
 
 ---
 

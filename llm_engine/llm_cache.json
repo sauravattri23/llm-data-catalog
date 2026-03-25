@@ -1,0 +1,682 @@
+{
+  "6b9764e0ffeaf44ad1f98a7ba1759398": {
+    "response": "User_events is a table that stores user events. The table contains the city, created_at, device_type, event_id and event type. It also stores the os, page_url, product_idea, session_ID and user_address.",
+    "cached_at": "2026-03-25T16:42:57.939070",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "a6511cd0a5b5e73789b1b6f011d67915": {
+    "response": "city, created_at, event_type, os, page_url, product_idea, session_id",
+    "cached_at": "2026-03-25T16:43:12.958234",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "d73ffd6607e06a6c6cbd235a8e7d6cda": {
+    "response": "The city of user_events can be a string.",
+    "cached_at": "2026-03-25T16:43:21.261706",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "92d6847dcbc202ad7f6a38da270ff9cd": {
+    "response": "Created at is a timestamp for user_events.",
+    "cached_at": "2026-03-25T16:43:30.106131",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4e200182a10459fc20317658de76ea7e": {
+    "response": "The device_type column in user_events is a string column.",
+    "cached_at": "2026-03-25T16:43:39.798163",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "1a8e278da629805b660978462e4161a2": {
+    "response": "Event_id is an integer in the user_events table.",
+    "cached_at": "2026-03-25T16:43:48.596494",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "fad5f361bb138cef8ab7736c5d6693db": {
+    "response": "The event type for user events is remove_from_cart, page_view, product view.",
+    "cached_at": "2026-03-25T16:43:59.758582",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "3f5d18ad11d688f760febc9acae40d65": {
+    "response": "The os column in user_events is a string.",
+    "cached_at": "2026-03-25T16:44:08.186375",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "66536026ff06f173f8838b24b9bf096a": {
+    "response": "The page_url for user_events is https://shenoy.com/apppost.jsp.",
+    "cached_at": "2026-03-25T16:44:22.185181",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c48c99e88cd4f55f8384a494ea70c2b5": {
+    "response": "Product_id is an integer that can be nullable.",
+    "cached_at": "2026-03-25T16:44:30.231094",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "b18fac25b325ffea3f626070a69d2795": {
+    "response": "Session_id is a column in user_events.",
+    "cached_at": "2026-03-25T16:44:39.509692",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a9a9461353357ef760b05aad30110d31": {
+    "response": "The user_id is an integer.",
+    "cached_at": "2026-03-25T16:44:45.172599",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "819c9e819333f647be2d8c566f8056e2": {
+    "response": "Created at, discount_pct, item_id, order_distance, product_code, quantity, total_prices, unit prices are stored in this table.",
+    "cached_at": "2026-03-25T16:45:04.957822",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "0bc2bac9b41e1370c9df0126c88a7af8": {
+    "response": "Created_at, discount_pct, item_id, order_distance, product_code, quantity, total_prices",
+    "cached_at": "2026-03-25T16:45:18.519525",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "659d144298c94d70e475deb93063b275": {
+    "response": "The order_items table has a timestamp column.",
+    "cached_at": "2026-03-25T16:45:24.007843",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "0447fbd101792971a823bc768f89b612": {
+    "response": "Not available",
+    "cached_at": "2026-03-25T16:45:26.535803",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "6d6be7a673272467d77cd97a3eeea7a1": {
+    "response": "The item_id is an integer.",
+    "cached_at": "2026-03-25T16:45:30.011720",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4868bbd5feb5328f1bd246a3975e5654": {
+    "response": "The order_id is an integer.",
+    "cached_at": "2026-03-25T16:45:32.907098",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "6883e66798c43c9bc67312e09ab4920c": {
+    "response": "Product_id is an integer. It is not nullable.",
+    "cached_at": "2026-03-25T16:45:36.818535",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "585646600cb8b75f2a21d37d84f9c3bb": {
+    "response": "Quantity is an integer column in the order_items table.",
+    "cached_at": "2026-03-25T16:45:40.386974",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "5022605bfa571c62778effe07136e030": {
+    "response": "The total price of an order item is a decimal.",
+    "cached_at": "2026-03-25T16:45:43.566026",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4b0dac9d5831e4590e1414c261243dd8": {
+    "response": "The unit_price column in the order_items table is decimal.",
+    "cached_at": "2026-03-25T16:45:47.637997",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c76a6595855a3910e3bff672364b6e79": {
+    "response": "The following columns are in the orders table: Delivery_at, Discount_amt, Ordered At, order_id, payment_status, shipping_addr, tax_amount, total_number, user_ID.",
+    "cached_at": "2026-03-25T16:45:59.353795",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "2327519724e8f3a3a5e4049e44b80378": {
+    "response": "Discount_amt, Ordered At, order_id, payment_status, shipping_addr, tax_amount",
+    "cached_at": "2026-03-25T16:46:06.470285",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "428c8be29a34f4614b9a0e09386f27ab": {
+    "response": "Delivered_at can be nullable.",
+    "cached_at": "2026-03-25T16:46:10.271677",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c5fb73e1eb6d06d76733a9705eed19b2": {
+    "response": "Discount amt is a decimal type column in orders.",
+    "cached_at": "2026-03-25T16:46:13.347830",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a2cc53431800332f92a59072c785ae03": {
+    "response": "Ordered_at is a timestamp.",
+    "cached_at": "2026-03-25T16:46:17.345843",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "ce8937f89c17cdc7398c8227e29ab024": {
+    "response": "The order_id is an integer.",
+    "cached_at": "2026-03-25T16:46:24.015808",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "3fc74de0a16d186b24b0dd3ef3fbbfb2": {
+    "response": "The order status of an order is cancelled, pending, or shipped.",
+    "cached_at": "2026-03-25T16:46:31.995280",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "d51f96d2fd04f043caea9839062cf967": {
+    "response": "The payment status of an order is paid or pending.",
+    "cached_at": "2026-03-25T16:46:39.125078",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c9ebd671e7f175cf1e08e81986d439c9": {
+    "response": "The shipping_addr of an order is a text string.",
+    "cached_at": "2026-03-25T16:46:47.050707",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a70ddc253cfb8d6b917dd55dcccff725": {
+    "response": "The tax_amount of an order is a decimal.",
+    "cached_at": "2026-03-25T16:46:55.048052",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "21b8980d23ae930d050e554055192105": {
+    "response": "The total amount of an order is a decimal.",
+    "cached_at": "2026-03-25T16:47:01.762213",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "5bede40609ffb5e022516b205f8b8399": {
+    "response": "The user_id is not nullable.",
+    "cached_at": "2026-03-25T16:47:08.133749",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "06324daf644c60ed10a215ee14dae2b6": {
+    "response": "Payments is a table that stores payment information for customers.",
+    "cached_at": "2026-03-25T16:47:29.883864",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "b8b8fd3bbd9e587655a2df16eec89484": {
+    "response": "payment_method",
+    "cached_at": "2026-03-25T16:47:39.717116",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "a6bb9e3acb1e075be0a370a4e2fef7aa": {
+    "response": "The amount of payments is a decimal data type.",
+    "cached_at": "2026-03-25T16:47:46.443283",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c5d156a2eb0633c754e5970e9598eb93": {
+    "response": "Created at is a timestamp for payments.",
+    "cached_at": "2026-03-25T16:47:53.261152",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "1557ab322b8c1a795f71df55bdea8496": {
+    "response": "The payment gateways are PhonePe, Razorpay, and Cashfree.",
+    "cached_at": "2026-03-25T16:48:02.061452",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "000ab2ddc23af78205d297eb0fdfe39a": {
+    "response": "The order_id is an integer.",
+    "cached_at": "2026-03-25T16:48:08.772899",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "085ebe25d9f74583e5cd2ab92ba33a78": {
+    "response": "Paid_at is a timestamp that can be nullable.",
+    "cached_at": "2026-03-25T16:48:17.609797",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "f8964328bcedd5182d5b3f6d4bf1ebb1": {
+    "response": "The payment_id is an integer.",
+    "cached_at": "2026-03-25T16:48:22.892936",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "8ae8329d04ddffe9cb0935517a71cecd": {
+    "response": "The payment method for a payment is COD.",
+    "cached_at": "2026-03-25T16:48:30.593070",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "dabf5c8de1b0f4cf5bff44195008128d": {
+    "response": "The payment status of a payment is \"pending\" or \"success\".",
+    "cached_at": "2026-03-25T16:48:40.369243",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4fa4ccfd2837024bd0fd7f1d8c371d5d": {
+    "response": "Transaction_id is a string.",
+    "cached_at": "2026-03-25T16:48:47.354316",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "d23a4df1c6efcff5425a1425119dce71": {
+    "response": "Addresses is a table that stores addresses for work, other, and home.",
+    "cached_at": "2026-03-25T16:48:58.993644",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "7b452641e8013f73e784e7a97dd709ac": {
+    "response": "city, created_at, is_default, pincode",
+    "cached_at": "2026-03-25T16:49:06.482682",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "2e2869153069329b2e6a8eb7406d7a37": {
+    "response": "The address_id is an integer.",
+    "cached_at": "2026-03-25T16:49:13.421160",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "2f10fb28358fb4b4647450b91590cb71": {
+    "response": "Address_line1 is a string.",
+    "cached_at": "2026-03-25T16:49:21.405823",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "0a90e6ccc0ddefe5b960640b00b2b9eb": {
+    "response": "The address_line2 column is a string column.",
+    "cached_at": "2026-03-25T16:49:29.970892",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "e4b28054f9e6abf97df4f50dd727d600": {
+    "response": "The address_type column stores the address of a user, such as work, other, home.",
+    "cached_at": "2026-03-25T16:49:38.321693",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "6e96692562dced9885ece9c238cb4221": {
+    "response": "The city column in addresses is a string.",
+    "cached_at": "2026-03-25T16:49:44.599655",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "ece8796903214e1c5f73b1d3c37d193f": {
+    "response": "Created_at is a timestamp for an address.",
+    "cached_at": "2026-03-25T16:49:51.573222",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c0ebd270a6a23c664a3a4f6083ff26ed": {
+    "response": "The default value for addresses is False.",
+    "cached_at": "2026-03-25T16:49:57.908595",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "2adeea39c685a5819453a7cd7e4e82f1": {
+    "response": "The pincode for addresses is a string.",
+    "cached_at": "2026-03-25T16:50:04.119775",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "cb64ec647efed2ee4e48fee3b6f63a7c": {
+    "response": "State can be a string.",
+    "cached_at": "2026-03-25T16:50:09.828712",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "b97e7bac66f022091272a9e62307ff9a": {
+    "response": "The user_id is an integer.",
+    "cached_at": "2026-03-25T16:50:16.725866",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "0930e515e69a70b7be81bfdcb49ddb68": {
+    "response": "The reviews table has 800 rows and contains the following columns: created_at, helpful_votes, is_verified, product_id, rating, review_text, title, user_ID.",
+    "cached_at": "2026-03-25T16:50:38.749357",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "d8a5eea2f5619455721a5cfbea1ea90b": {
+    "response": "is_verified, rating, review_text, title",
+    "cached_at": "2026-03-25T16:50:47.449805",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "4dc05ca20e8c835094d54baeb8e5b50e": {
+    "response": "Created_at is a timestamp for reviews.",
+    "cached_at": "2026-03-25T16:50:54.587826",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "819859946cf67c878f6bd8e2983ab001": {
+    "response": "Helpful_votes is an integer column in the reviews table. It is not nullable.",
+    "cached_at": "2026-03-25T16:51:09.726762",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "2a1ef21c9685daae3185a70a7d43a9c8": {
+    "response": "The is_verified record of reviews is True or False.",
+    "cached_at": "2026-03-25T16:51:21.941939",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c6effe55e9df4e75d20565810a186711": {
+    "response": "Product_id is an integer. It is not nullable.",
+    "cached_at": "2026-03-25T16:51:30.577315",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "44aef457190c228aa803e8849edd9d05": {
+    "response": "The rating column is a nullable column.",
+    "cached_at": "2026-03-25T16:51:37.347580",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "ce03c6e4cb7b995966aedf524e1523a2": {
+    "response": "Review_id is an integer.",
+    "cached_at": "2026-03-25T16:51:45.041144",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a8baac5a407d230db4920a9b0eb98ae1": {
+    "response": "Review_text is a text column.",
+    "cached_at": "2026-03-25T16:51:51.951494",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "25c0c1cee9c2c603b7c76763608c2429": {
+    "response": "Titles for reviews are stored in a string column.",
+    "cached_at": "2026-03-25T16:52:00.219017",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "f5729d20be2d97acc5893cfc4335596c": {
+    "response": "The user_id is an integer.",
+    "cached_at": "2026-03-25T16:52:07.828864",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "cca7c18cbd812e87521f0df2743b7f16": {
+    "response": "The shipments table has 573 rows. It has the following columns: carrier, created_at, delivered_date, estimated_ date, order_id, shipment_ID, status, tracking_no.",
+    "cached_at": "2026-03-25T16:52:35.598030",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "2b21b6f80a7f613dd3b16202061c2a75": {
+    "response": "order_id, estimated_date, status, tracking_no",
+    "cached_at": "2026-03-25T16:52:50.457615",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "4f9b86e6222ccac22babe53c8572b01d": {
+    "response": "The carrier for a shipment is the string \"ecom express\", DTDC, Delhivery.",
+    "cached_at": "2026-03-25T16:53:04.252536",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "89984f7710ff03ee0408cbeb49cb5fe1": {
+    "response": "Created at is a timestamp for shipments.",
+    "cached_at": "2026-03-25T16:53:12.142003",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "f4869c3c4e6962780dcae7120d96358c": {
+    "response": "Delivered_date is a timestamp for shipments.",
+    "cached_at": "2026-03-25T16:53:20.982464",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "92f2b5d22566b7d24ec62b2eb4565651": {
+    "response": "Estimated date is a timestamp for shipments.",
+    "cached_at": "2026-03-25T16:53:29.209773",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "7530dba6e4dac08eb5a08393c0b6aa72": {
+    "response": "The order_id is an integer.",
+    "cached_at": "2026-03-25T16:53:36.505321",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "796654bfe3dddbda1612eb5c1353f8f6": {
+    "response": "The shipment_id is an integer.",
+    "cached_at": "2026-03-25T16:53:42.762547",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "ff3f8e97577fda4252cac9e858590610": {
+    "response": "The status of a shipment is in_transit, packed, or delivered.",
+    "cached_at": "2026-03-25T16:53:52.930573",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "eb920251beb1803054c17b0ff3f6d26e": {
+    "response": "The tracking_no for shipments is Wm14684809, LQ64311814, wt58461589.",
+    "cached_at": "2026-03-25T16:54:09.769545",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "834d06e099ed83bd94f4b2ba4f23af9d": {
+    "response": "The users table contains the city, created_at, email, full_name, is_premium, verified, phone_number, pincode, state, and updated_at columns.",
+    "cached_at": "2026-03-25T16:54:35.010742",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "6fae9fe668b43f1c3cac8384adddefa4": {
+    "response": "city, created_at, email, full_name, verified, phone_number, pincode, state",
+    "cached_at": "2026-03-25T16:54:48.865973",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "e583c17a05343a0c04a86eed4b0595a1": {
+    "response": "The city of the user is Dindigul, Salem, and Latur.",
+    "cached_at": "2026-03-25T16:54:58.791836",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "22e91544ffc48c4e1c2f41a3a7228801": {
+    "response": "Created_at is a timestamp for users.",
+    "cached_at": "2026-03-25T16:55:07.548847",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "e24c95adbf823ae807a429fc526345dc": {
+    "response": "Email addresses for users are nayantarasem@example.org.",
+    "cached_at": "2026-03-25T16:55:35.253045",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "29b869245a07580108967ccd72b3faa4": {
+    "response": "The full_name of users is a string.",
+    "cached_at": "2026-03-25T16:55:45.519926",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "72dab895eb217b98895794baae7b4618": {
+    "response": "is_premium is a boolean data type for users.",
+    "cached_at": "2026-03-25T16:55:55.710090",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "df64e01641ba829d2920f325ceb9c2b7": {
+    "response": "The is_verified record of a user can be True or False.",
+    "cached_at": "2026-03-25T16:56:08.636314",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "1f2c960aa4d31aab65b1f3f1e72decc1": {
+    "response": "The phone number for a user is 08075110393, +911259411860,+914806767844.",
+    "cached_at": "2026-03-25T16:56:23.335452",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4e916a1e2ecc1c8d6a25499b197b91fa": {
+    "response": "The pincode for users is 957198, 246367, 074832.",
+    "cached_at": "2026-03-25T16:56:33.568979",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "42026e727d28d71e8d3e210b5af32a1d": {
+    "response": "The state of a user can be nullable.",
+    "cached_at": "2026-03-25T16:56:40.853375",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "39f9287589493dcdae8cddb1a2c1434d": {
+    "response": "Updated_at is a timestamp for users.",
+    "cached_at": "2026-03-25T16:56:49.012113",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "376cd8ec657ead592c13483b15ce0193": {
+    "response": "The user_id is an integer.",
+    "cached_at": "2026-03-25T16:56:56.840044",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "d982939400a6ecf601ed75fc6f5835f0": {
+    "response": "inventory_id, last_restocked, product_code, qty_available, quantity_damaged, reserve_level, updated_at, warehouse",
+    "cached_at": "2026-03-25T16:57:19.977674",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "799ca1b0dfcaf2900d2c2aff8ad79a58": {
+    "response": "inventory_id, last_restocked, product_code, quantity_damaged",
+    "cached_at": "2026-03-25T16:57:32.836778",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "fc4da88b9a7bed358b146660f9fd95bb": {
+    "response": "Inventory_id is an integer.",
+    "cached_at": "2026-03-25T16:57:39.287463",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "2f37f62bda6a031477ad3c2b1425b428": {
+    "response": "Last restocked is a timestamp for inventory.",
+    "cached_at": "2026-03-25T16:57:47.450320",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "9719a057985dc2477aa7188c3f4c85b8": {
+    "response": "Product_id is an integer.",
+    "cached_at": "2026-03-25T16:57:56.419591",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a66e0d03c851bd11a25cbf2a20e37d99": {
+    "response": "qty_available is an integer column in inventory.",
+    "cached_at": "2026-03-25T16:58:04.241719",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "20048517b11949db2342ed1f73a1f1c5": {
+    "response": "qty_damaged is an integer.",
+    "cached_at": "2026-03-25T16:58:12.462467",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "ad28d91f26caabadf7181b35e9e17bd8": {
+    "response": "Qty_reserved is an integer column in inventory.",
+    "cached_at": "2026-03-25T16:58:19.822124",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "43c34780003b38932b16b08f03fb0864": {
+    "response": "The reorder_level is an integer.",
+    "cached_at": "2026-03-25T16:58:27.756288",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "158b8977ffd2a4d864071b127fc17f27": {
+    "response": "Updated_at is a timestamp for inventory.",
+    "cached_at": "2026-03-25T16:58:35.893170",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "efa1528440ddab2cf1118c383b4c64a8": {
+    "response": "This column stores inventory in warehouses, which are not nullable.",
+    "cached_at": "2026-03-25T16:58:44.574144",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "34eaabb25d2c04380b3919d27e534774": {
+    "response": "The products table contains brand, category_id, created_at, description, is_active, mrp, price, product_name, and sku.",
+    "cached_at": "2026-03-25T16:59:07.718139",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "351462197b91859303eb1281490b669b": {
+    "response": "brand, category_id, created_at, description, is_active, mrp, price",
+    "cached_at": "2026-03-25T16:59:21.479774",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "056ac06b398dffb331e11eb518e75069": {
+    "response": "The brand of a product is the string \"LG, Puma, Nike\".",
+    "cached_at": "2026-03-25T16:59:31.710125",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "3271fa319524ead4bd89068de142a46c": {
+    "response": "Category_id is an integer.",
+    "cached_at": "2026-03-25T16:59:39.956378",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "848930b291420d55285bd6c982e8496a": {
+    "response": "Created_at is a timestamp for products.",
+    "cached_at": "2026-03-25T16:59:47.717515",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "94a522f704bf9ee2df13b5781ca48ab7": {
+    "response": "Description is a text column for products.",
+    "cached_at": "2026-03-25T16:59:53.910983",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "678151924e4b771683edd334e907671d": {
+    "response": "The is_active record of products is False.",
+    "cached_at": "2026-03-25T17:00:05.461258",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "e6310df110a4f59ebecfa70f81798758": {
+    "response": "The mrp column in the products table is decimal.",
+    "cached_at": "2026-03-25T17:00:13.712399",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "863a2946853268dbde8df9465e21439a": {
+    "response": "The price of a product is in decimal.",
+    "cached_at": "2026-03-25T17:00:20.419927",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "49487f3689bd21d42e4073678f0efab5": {
+    "response": "Product_id is an integer.",
+    "cached_at": "2026-03-25T17:00:28.257837",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "d7eaeec8efa2a0511ee57d39b40ec7c4": {
+    "response": "Product name is a string.",
+    "cached_at": "2026-03-25T17:00:34.695126",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "9ef70dd2033effcb7525b317d8354f8c": {
+    "response": "sku is a product id.",
+    "cached_at": "2026-03-25T17:00:45.689472",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "7be4990dcf2b394ae10bf7cfacc611e2": {
+    "response": "Stock qty is an integer.",
+    "cached_at": "2026-03-25T17:00:56.260181",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "69336ef065787c76b6ebd47b1023d8dc": {
+    "response": "Coupons are a type of discount. They can be flat or percentage.",
+    "cached_at": "2026-03-25T17:01:10.983935",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "cc73ab56332f9cfdc3235374a0c7f8ab": {
+    "response": "coupon_code, discount_value, is_active, max_uses",
+    "cached_at": "2026-03-25T17:01:21.590955",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "bcb5a4023c97faadcb872eb5672b7a17": {
+    "response": "The coupon_code is a string and is not nullable.",
+    "cached_at": "2026-03-25T17:01:30.355897",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "92843812881317c5bea29d560ae85ad9": {
+    "response": "The coupon_id is an integer.",
+    "cached_at": "2026-03-25T17:01:36.276163",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "4b1ba874dcd08d1d45e579267176e26a": {
+    "response": "Created at is not available for coupons.",
+    "cached_at": "2026-03-25T17:01:42.899496",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "1922d0f2902742a91dda4e93dbaa7e86": {
+    "response": "The discount type for coupons is flat and percentage.",
+    "cached_at": "2026-03-25T17:01:49.687710",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "c9addaa9737492716271ccc0810efbee": {
+    "response": "Discount_value is a float that is not nullable.",
+    "cached_at": "2026-03-25T17:01:58.225986",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "2b867b83732ce74a4f8df97285ddc310": {
+    "response": "The is_active record of coupons is False.",
+    "cached_at": "2026-03-25T17:02:06.876600",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "cea688b9ac48b8705d077fc67d7efae3": {
+    "response": "The maximum number of coupons that can be used is 6033.",
+    "cached_at": "2026-03-25T17:02:15.091468",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "7131feddb0bd178ec09e0a9cd710511a": {
+    "response": "The minimum order amount for coupons is not available.",
+    "cached_at": "2026-03-25T17:02:21.938598",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "e5f2abd41320111ba91efdd4ad62ba06": {
+    "response": "Used_count is the number of coupons used.",
+    "cached_at": "2026-03-25T17:02:29.525507",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "0275885e7bec61f12558d5ceb66f22bb": {
+    "response": "Valid_from is a timestamp for coupons.",
+    "cached_at": "2026-03-25T17:02:36.614161",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "bf74b2885b4cde5d59bf17a4c77f5b06": {
+    "response": "Valid_until is a timestamp for coupons.",
+    "cached_at": "2026-03-25T17:02:45.504896",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "b41ddd1de2af47d183e6bae2d5be128b": {
+    "response": "Category_id, category_name, created_at, description, is_active, parent_ID = 22",
+    "cached_at": "2026-03-25T17:03:01.501386",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 2-senten..."
+  },
+  "46dec3c3f7de6070e94d5f254be23d24": {
+    "response": "category_id, created_at, description",
+    "cached_at": "2026-03-25T17:03:08.595649",
+    "prompt_preview": "You are a data engineer creating searchable tags for a data catalog.\n\nGenerate 5 relevant business t..."
+  },
+  "efdfa572f2b9e9d593c9529bdc5fa07f": {
+    "response": "Category_id is an integer.",
+    "cached_at": "2026-03-25T17:03:16.282319",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "250e1d080ae15aaf7ce9bebf1fbe007c": {
+    "response": "Category_name is the name of a category.",
+    "cached_at": "2026-03-25T17:03:22.983167",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "a08fe05dd44ed3b0c539e696d7eb46a8": {
+    "response": "Created_at is a datetime column in the category table.",
+    "cached_at": "2026-03-25T17:03:31.603211",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "e9b4289959a49ec567d7fc340e84d417": {
+    "response": "Description is a text column.",
+    "cached_at": "2026-03-25T17:03:37.522720",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "d87e62a322a8cbabc326000800d8b3f2": {
+    "response": "The is_active record of a category.",
+    "cached_at": "2026-03-25T17:03:46.617386",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  },
+  "9bea0dcae944a5ed4f0631439ffd7a00": {
+    "response": "The parent_id of a category can be nullable.",
+    "cached_at": "2026-03-25T17:03:55.249675",
+    "prompt_preview": "You are a senior data engineer writing documentation for a database catalog.\n\nWrite a clear 1-senten..."
+  }
+}
