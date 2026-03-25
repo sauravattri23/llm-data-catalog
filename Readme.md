@@ -78,7 +78,7 @@ This project **solves that problem automatically** using LLMs.
 | **Database** | PostgreSQL, MySQL |
 | **Crawling** | SQLAlchemy Inspector, psycopg2 |
 | **Data Generation** | Python Faker |
-| **LLM & AI** | LangChain, OpenAI GPT-4, HuggingFace |
+| **LLM & AI** | HuggingFace flan-t5-large, LangChain, Transformers, PyTorch |
 | **Orchestration** | Apache Airflow |
 | **Transformation** | dbt |
 | **Lineage** | Neo4j |
@@ -87,7 +87,7 @@ This project **solves that problem automatically** using LLMs.
 | **Frontend** | React |
 | **Monitoring** | Grafana, Prometheus |
 | **Infrastructure** | Docker, Docker Compose |
-| **LLM & AI** | HuggingFace flan-t5-large, LangChain, Transformers, PyTorch |
+
 
 ---
 
