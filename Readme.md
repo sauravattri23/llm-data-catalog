@@ -87,10 +87,6 @@ This project **solves that problem automatically** using LLMs.
 | **Frontend** | React |
 | **Monitoring** | Grafana, Prometheus |
 | **Infrastructure** | Docker, Docker Compose |
-<<<<<<< HEAD
-
-=======
->>>>>>> 0956e99 (Phase 4: Data Lineage with Neo4j complete)
 
 ---
 
