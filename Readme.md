@@ -63,8 +63,8 @@ This project **solves that problem automatically** using LLMs.
 | **Phase 1** | Fake E-commerce Database (12 tables, 13K+ records) | ✅ Done |
 | **Phase 2** | Metadata Crawler (112 columns, all Grade A quality) | ✅ Done |
 | **Phase 3** | LLM Integration — GPT-4 auto-descriptions | ✅ Done |
-| **Phase 4** | Data Lineage — Neo4j graph | 🔄 In Progress |
-| **Phase 5** | Airflow Orchestration | ⏳ Coming Soon |
+| **Phase 4** | Data Lineage — Neo4j graph | ✅ Done |
+| **Phase 5** | Airflow Orchestration | 🔄 In Progress |
 | **Phase 6** | FastAPI REST endpoints | ⏳ Coming Soon |
 | **Phase 7** | React Search UI | ⏳ Coming Soon |
 | **Phase 8** | Grafana Monitoring Dashboard | ⏳ Coming Soon |
@@ -87,7 +87,10 @@ This project **solves that problem automatically** using LLMs.
 | **Frontend** | React |
 | **Monitoring** | Grafana, Prometheus |
 | **Infrastructure** | Docker, Docker Compose |
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0956e99 (Phase 4: Data Lineage with Neo4j complete)
 
 ---
 
@@ -132,6 +135,35 @@ documentation written.
 - 112 columns described automatically
 - 0 lines of manual documentation written
 - Local HuggingFace model — zero API cost
+
+---
+
+## 🔗 Phase 4 Results — Data Lineage Graph
+
+Built a complete data lineage graph in Neo4j mapping
+all relationships between tables and columns.
+
+**Graph Statistics:**
+| Node/Relationship | Count |
+|---|---|
+| Database nodes | 1 |
+| Table nodes | 12 |
+| Column nodes | 112 |
+| CONTAINS relationships | 12 |
+| HAS_COLUMN relationships | 112 |
+| REFERENCES relationships | 8 |
+| RELATED_TO relationships | 8 |
+
+**7 Lineage Queries Built:**
+- Find all tables connected to any table
+- Find upstream tables (where data comes FROM)
+- Find downstream tables (where data GOES TO)
+- Find shortest path between any two tables
+- Find most connected hub tables
+- List all foreign key relationships
+- Search tables by keyword
+
+**View graph:** `http://localhost:7474`
 
 ---
 
@@ -186,13 +218,28 @@ cd crawler
 python metadata_extractor.py
 ```
 
-### Step 8 — View results in pgAdmin
+### Step 8 — Generate AI descriptions (Phase 3)
+```bash
+cd llm_engine
+python catalog_generator.py
 ```
-Open: http://localhost:5050
-Login: admin@catalog.com / admin123
-Host: postgres | Port: 5432
-Database: ecommerce_db
-User: catalog_user | Pass: catalog_pass
+
+### Step 9 — Build lineage graph (Phase 4)
+```bash
+cd lineage
+python lineage_tracker.py
+```
+
+### Step 10 — Explore lineage queries (Phase 4)
+```bash
+python lineage_queries.py
+```
+
+### Step 11 — View lineage graph visually
+```
+Open: http://localhost:7474
+Login: neo4j / neo4j_pass
+Run: MATCH (n) RETURN n LIMIT 100
 ```
 
 ---
@@ -202,28 +249,34 @@ User: catalog_user | Pass: catalog_pass
 ```
 llm-data-catalog/
 │
-├── 📄 docker-compose.yml          # All services
+├── 📄 docker-compose.yml          # PostgreSQL + pgAdmin + Neo4j
 ├── 📄 requirements.txt            # Python packages
 ├── 📄 .env                        # Credentials (not committed)
 ├── 📄 .gitignore
 ├── 📄 README.md
 │
 ├── 📁 database/
-│   └── init_db.py                 # 12 tables + 13K fake records
+│   └── init_db.py                 # 12 tables + 13K fake records ✅
 │
 ├── 📁 crawler/
-│   ├── metadata_extractor.py      # Main crawler (Phase 2)
-│   ├── quality_profiler.py        # Quality scoring engine
-│   └── schema_parser.py           # Type parser helper
+│   ├── metadata_extractor.py      # Main crawler ✅
+│   ├── quality_profiler.py        # Quality scoring engine ✅
+│   └── schema_parser.py           # Type parser helper ✅
 │
-├── 📁 llm_engine/                 # Phase 3 — coming soon
-├── 📁 lineage/                    # Phase 4 — coming soon
+├── 📁 llm_engine/
+│   ├── catalog_generator.py       # Main LLM engine ✅
+│   ├── prompt_templates.py        # All AI prompts ✅
+│   └── response_cache.py          # Local JSON cache ✅
+│
+├── 📁 lineage/
+│   ├── lineage_tracker.py         # Builds Neo4j graph ✅
+│   └── lineage_queries.py         # 7 lineage queries ✅
+│
 ├── 📁 airflow/dags/               # Phase 5 — coming soon
 ├── 📁 api/                        # Phase 6 — coming soon
 ├── 📁 frontend/                   # Phase 7 — coming soon
 └── 📁 monitoring/                 # Phase 8 — coming soon
 ```
-
 ---
 
 ## 🗄️ Database Schema (Phase 1)
