@@ -64,8 +64,8 @@ This project **solves that problem automatically** using LLMs.
 | **Phase 2** | Metadata Crawler (112 columns, all Grade A quality) | ✅ Done |
 | **Phase 3** | LLM Integration — GPT-4 auto-descriptions | ✅ Done |
 | **Phase 4** | Data Lineage — Neo4j graph | ✅ Done |
-| **Phase 5** | Airflow Orchestration | 🔄 In Progress |
-| **Phase 6** | FastAPI REST endpoints | ⏳ Coming Soon |
+| **Phase 5** | Airflow Orchestration | ✅ Done |
+| **Phase 6** | FastAPI REST endpoints | 🔄 In Progress |
 | **Phase 7** | React Search UI | ⏳ Coming Soon |
 | **Phase 8** | Grafana Monitoring Dashboard | ⏳ Coming Soon |
 
@@ -163,6 +163,32 @@ all relationships between tables and columns.
 
 ---
 
+## 🌊 Phase 5 Results — Airflow Orchestration
+
+Built a complete automated pipeline using Apache Airflow
+that runs all phases daily at midnight automatically.
+
+**DAG: `llm_catalog_pipeline`**
+
+| Task | Description | Status |
+|---|---|---|
+| `health_check` | Verifies PostgreSQL and Neo4j are running | ✅ |
+| `metadata_crawler` | Scans all 12 tables and updates catalog | ✅ |
+| `llm_generator` | Checks AI description cache | ✅ |
+| `lineage_tracker` | Rebuilds Neo4j lineage graph | ✅ |
+| `pipeline_summary` | Logs final stats and duration | ✅ |
+
+**Key Features:**
+- Runs automatically every day at midnight
+- Tasks run in strict order with dependencies
+- Auto-retries 2 times if any task fails
+- Full run history visible in Airflow UI
+- All 5 tasks passing — zero errors
+
+**View Airflow UI:** `http://localhost:8080`
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -238,15 +264,29 @@ Login: neo4j / neo4j_pass
 Run: MATCH (n) RETURN n LIMIT 100
 ```
 
+### Step 12 — Start Airflow (Phase 5)
+```
+Open: http://localhost:8080
+Login: admin / admin123
+
+```
+### Step 13 — Trigger Pipeline
+```
+Click llm_catalog_pipeline
+Click ▶️ Trigger DAG
+Watch all 5 tasks run automatically!
+
+```
+
 ---
 
 ## 📁 Project Structure
-
 ```
 llm-data-catalog/
 │
-├── 📄 docker-compose.yml          # PostgreSQL + pgAdmin + Neo4j
+├── 📄 docker-compose.yml          # PostgreSQL + pgAdmin + Neo4j + Airflow
 ├── 📄 requirements.txt            # Python packages
+├── 📄 requirements-airflow.txt    # Airflow container packages
 ├── 📄 .env                        # Credentials (not committed)
 ├── 📄 .gitignore
 ├── 📄 README.md
@@ -268,7 +308,10 @@ llm-data-catalog/
 │   ├── lineage_tracker.py         # Builds Neo4j graph ✅
 │   └── lineage_queries.py         # 7 lineage queries ✅
 │
-├── 📁 airflow/dags/               # Phase 5 — coming soon
+├── 📁 airflow/
+│   └── dags/
+│       └── catalog_pipeline.py    # Main Airflow DAG ✅
+│
 ├── 📁 api/                        # Phase 6 — coming soon
 ├── 📁 frontend/                   # Phase 7 — coming soon
 └── 📁 monitoring/                 # Phase 8 — coming soon

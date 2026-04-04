@@ -1,0 +1,8 @@
+neo4j==5.14.0
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+transformers==4.36.0
+torch==2.1.0
+sentence-transformers==2.2.2
+huggingface-hub==0.20.0
+langchain==0.1.0
