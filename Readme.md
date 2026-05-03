@@ -65,8 +65,8 @@ This project **solves that problem automatically** using LLMs.
 | **Phase 3** | LLM Integration — GPT-4 auto-descriptions | ✅ Done |
 | **Phase 4** | Data Lineage — Neo4j graph | ✅ Done |
 | **Phase 5** | Airflow Orchestration | ✅ Done |
-| **Phase 6** | FastAPI REST endpoints | 🔄 In Progress |
-| **Phase 7** | React Search UI | ⏳ Coming Soon |
+| **Phase 6** | FastAPI REST endpoints | ✅ Done |
+| **Phase 7** | React Search UI | 🔄 In Progress |
 | **Phase 8** | Grafana Monitoring Dashboard | ⏳ Coming Soon |
 
 ---
@@ -189,6 +189,31 @@ that runs all phases daily at midnight automatically.
 
 ---
 
+## ⚡ Phase 6 Results — FastAPI REST API
+
+Built a complete REST API with 23 endpoints serving
+all catalog data including tables, columns, search,
+quality scores and lineage.
+
+| Route | Endpoints | Purpose |
+|---|---|---|
+| `/tables` | 5 endpoints | Browse tables and columns |
+| `/columns` | 5 endpoints | Column details and stats |
+| `/search` | 3 endpoints | Keyword search |
+| `/quality` | 4 endpoints | Quality scores and alerts |
+| `/lineage` | 6 endpoints | Lineage queries |
+
+**Key Features:**
+- Auto-generated Swagger UI at `http://localhost:8000/docs`
+- CORS enabled for React frontend
+- Neo4j lineage queries via REST
+- Full text search across tables and columns
+
+**View API:** `http://localhost:8000`
+**View Docs:** `http://localhost:8000/docs`
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -278,6 +303,16 @@ Watch all 5 tasks run automatically!
 
 ```
 
+### Step 14 — Start FastAPI (Phase 6)
+```bash
+cd api
+uvicorn main:app --reload --port 8000
+```
+
+### Step 15 — View API Documentation
+```
+Open: http://localhost:8000/docs
+```
 ---
 
 ## 📁 Project Structure
@@ -312,7 +347,16 @@ llm-data-catalog/
 │   └── dags/
 │       └── catalog_pipeline.py    # Main Airflow DAG ✅
 │
-├── 📁 api/                        # Phase 6 — coming soon
+├── 📁 api/
+│   ├── main.py                    # FastAPI app entry point ✅
+│   ├── database.py                # DB connection ✅
+│   └── routes/
+│       ├── tables.py              # Table endpoints ✅
+│       ├── columns.py             # Column endpoints ✅
+│       ├── search.py              # Search endpoints ✅
+│       ├── quality.py             # Quality endpoints ✅
+│       └── lineage.py             # Lineage endpoints ✅
+│
 ├── 📁 frontend/                   # Phase 7 — coming soon
 └── 📁 monitoring/                 # Phase 8 — coming soon
 ```
