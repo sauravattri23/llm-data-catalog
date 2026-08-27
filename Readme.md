@@ -66,8 +66,8 @@ This project **solves that problem automatically** using LLMs.
 | **Phase 4** | Data Lineage — Neo4j graph | ✅ Done |
 | **Phase 5** | Airflow Orchestration | ✅ Done |
 | **Phase 6** | FastAPI REST endpoints | ✅ Done |
-| **Phase 7** | React Search UI | 🔄 In Progress |
-| **Phase 8** | Grafana Monitoring Dashboard | ⏳ Coming Soon |
+| **Phase 7** | React Search UI | ✅ Done |
+| **Phase 8** | Grafana Monitoring Dashboard | 🔄 In Progress |
 
 ---
 
